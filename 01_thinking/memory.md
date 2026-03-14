@@ -83,3 +83,12 @@ Scale AI automation agency to $100k+/month revenue with minimal overhead.
 - The system builds itself
 
 Everything is markdown, linked, and backed up. You own it completely.
+
+---
+
+## Installed Skills (2026-03-14)
+
+- **summarize** (v1.0.0) - URL/file/video summarization with LLMs
+  - Vetted ✅ - Safe, medium risk (requires API keys)
+  - Used for: Quick research summaries, content curation
+  - Documented in: `04_reference/tools/summarize.md`
