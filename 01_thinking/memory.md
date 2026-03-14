@@ -126,3 +126,17 @@ Core systems tracking token spending, budget limits, and performance metrics.
 
 I check budget at session start. If approaching 75% daily/monthly, I warn you. At 100%, I stop.
 Tracks everything automatically so you can see spending anytime with `/status`.
+
+---
+
+## Products (2026-03-14)
+
+### OpenClaw Platform
+- **Status:** Product exploration phase
+- **What:** Enterprise automation platform for AI agent deployment
+- **Target:** Mid-market B2B, professional services, e-commerce
+- **Files:**
+  - `openclaw-overview.md` - Product definition and features
+  - `pitch.md` - Sales positioning and close strategy
+  - `implementation.md` - How to deploy for clients (4-week timeline)
+- **Pricing model:** $1.5k-5k setup + $500-2k/month per agent

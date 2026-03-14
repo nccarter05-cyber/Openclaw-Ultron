@@ -11,6 +11,7 @@ AI-native business: automation systems that businesses rely on for core operatio
 - [[AI automation agency]] - custom AI agents for business clients
 - [[AI voice receptionist product]] - 24/7 call handling for local service businesses
 - [[Lead qualification systems]] - automated prospect filtering
+- [[OpenClaw]] - Enterprise automation platform for AI agent deployment
 
 ## Key Metrics
 
