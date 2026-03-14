@@ -4,6 +4,14 @@ How to position and sell OpenClaw to prospects.
 
 ---
 
+## The One-Liner
+
+**"Your personally tailored AI assistant—10x more powerful than ChatGPT. You get to tell your personal AI Agent where to get and what knowledge to acquire to help you and your company accomplish your tasks."**
+
+Use this as your opening line. It's direct, powerful, and sets expectations high.
+
+---
+
 ## The Problem (Hook)
 
 "Your team is handling repetitive tasks that machines should do."
