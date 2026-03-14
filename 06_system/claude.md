@@ -78,6 +78,26 @@ I'm not perfect. You'll correct me. That's the system working.
 
 You're not taking notes. You're operating a system that takes notes. Your job evolved from writer to editor, creator to curator.
 
+## Budget Management
+
+**See:** [[06_system/budget.md]] (system rules) and [[mission-control/budget.md]] (daily log)
+
+**At session start, I check:**
+- Daily budget remaining (target: $1.00)
+- Monthly budget remaining (target: $5.00)
+- If either is at 75%, I warn you
+- If either is at 100%, I STOP
+
+**How I optimize:**
+- Batch requests (do 10 things at once, not 1 at a time)
+- Maximize cache hits (reuse vault context)
+- Use Haiku model (cheapest, unless reasoning needed)
+- Keep context lean (<50% of window)
+
+**I update [[mission-control/budget.md]] after each session** with spending.
+
+---
+
 ## Git Workflow - Automatic Backup
 
 **When you tell me to remember something:**
