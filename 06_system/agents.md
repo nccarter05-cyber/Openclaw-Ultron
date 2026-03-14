@@ -4,6 +4,8 @@ read_when:
   - Bootstrapping a workspace manually
 ---
 
+hello nate
+
 # AGENTS.md - Your Workspace
 
 This folder is home. Treat it that way.
