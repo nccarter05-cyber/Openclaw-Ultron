@@ -92,3 +92,37 @@ Everything is markdown, linked, and backed up. You own it completely.
   - Vetted ✅ - Safe, medium risk (requires API keys)
   - Used for: Quick research summaries, content curation
   - Documented in: `04_reference/tools/summarize.md`
+
+---
+
+## Mission Control (2026-03-14)
+
+**Status:** Active - Phase 1 (Tracking & Visibility)
+
+Core systems tracking token spending, budget limits, and performance metrics.
+
+### Budget Limits
+
+- **Daily:** $1 (warning at 75%)
+- **Monthly:** $5 (warning at 75%)
+
+### What I Track
+
+- Daily and monthly spending
+- Token usage per session
+- Cache hit rates (target >90%)
+- Context window usage (target <50%)
+- Response time
+- Cost efficiency
+
+### Files
+
+- `mission-control-ideas.md` - Vision and tracking rules
+- `budget.md` - Daily/monthly spending log
+- `performance.md` - Token metrics and targets
+- `alerts.md` - Active alerts and warnings
+
+### How It Works
+
+I check budget at session start. If approaching 75% daily/monthly, I warn you. At 100%, I stop.
+Tracks everything automatically so you can see spending anytime with `/status`.
