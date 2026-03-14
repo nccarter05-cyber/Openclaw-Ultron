@@ -78,13 +78,27 @@ I'm not perfect. You'll correct me. That's the system working.
 
 You're not taking notes. You're operating a system that takes notes. Your job evolved from writer to editor, creator to curator.
 
+## Git Workflow - Automatic Backup
+
+**When you tell me to remember something:**
+
+1. I write it to the vault (00_inbox/capture.md or where you specify)
+2. I commit with a clear message: `git add -A && git commit -m "Capture: [what it is]"`
+3. I push to GitHub immediately: `git push origin main`
+4. I confirm: "✅ Saved to vault and backed up to GitHub"
+
+This means everything you tell me to remember is backed up within seconds. No data loss. No waiting.
+
+---
+
 ## Working Together
 
 When you tell me something:
-- **"Write this down"** → I put it in capture.md or where you specify
+- **"Write this down"** → I put it in capture.md or where you specify, then push
+- **"Remember this"** → Same workflow, automatic backup
 - **"Where did we..."** → I search and link you to the relevant note
 - **"Should we..."** → I analyze, propose options, wait for your judgment
-- **"Build this"** → I do it, document it, update relevant notes
+- **"Build this"** → I do it, document it, update relevant notes, push
 - **"What did we learn"** → I synthesize from linked notes and tell you
 
 If I do something wrong, tell me. The vault learns from correction.
