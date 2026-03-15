@@ -6,7 +6,7 @@ Real-time tracking of budget warnings, performance issues, and system health.
 
 ## Active Alerts
 
-🟢 **All clear** — No active warnings (2026-03-14 04:07 UTC)
+🟢 **All clear** — No active warnings (last checked time)
 
 ---
 
@@ -16,7 +16,7 @@ Real-time tracking of budget warnings, performance issues, and system health.
 
 **🟡 YELLOW** — Approaching 75% of daily budget
 - Action: Use caution with expensive operations
-- Timeline: Still have 25% to work with
+- Timeline: Still have room to work with
 
 **🔴 RED** — Hit 100% of budget
 - Action: STOP—No more API calls until next day/month
@@ -25,72 +25,49 @@ Real-time tracking of budget warnings, performance issues, and system health.
 ### Performance Alerts
 
 **🟡 YELLOW** — Cache hit rate <85%
-- Cause: Too many different topics, less context reuse
-- Fix: Archive completed projects
+- Cause: Too many different tasks loading context
+- Fix: Archive old, no longer relevant projects
 
 **🟡 YELLOW** — Context usage >60%
-- Cause: Vault is growing, using more memory
+- Cause: Vault growing, consuming memory
 - Fix: Compress old notes, move to archive
 
 **🟡 YELLOW** — Response time >30s
-- Cause: System overload or network issue
+- Cause: Potential overload or network issue
 - Fix: Wait or check connection
 
-**🔴 RED** — Out of context space
-- Cause: Hit the 200k limit
-- Fix: STOP—need to immediately compress vault
+**🔴 RED** — Critical context space exhausted
+- Cause: Hit 200k tokens
+- Fix: Stop for immediate vault compression
 
 ---
 
-## Alert History
+## History of Alerts
 
 | Date | Time | Type | Status | Resolution |
 |------|------|------|--------|-----------|
-| 2026-03-14 | 04:07 | None | — | All systems nominal |
+| last checked date | last checked time | None | — | All systems nominal |
 
 ---
 
-## How to Respond
+## Response Protocol
 
-### When I Alert You
+### When Receiving Alerts
+**Yellow Alerts:**
+- I will mention it in my responses.
+- No action required right away, but be aware and adjust as necessary.
 
-**Yellow Alert:**
-- I mention it in my response
-- No action required, just be aware
-- Use more selectively if you want to optimize
-
-**Red Alert:**
-- I STOP and refuse to continue
-- I explain what needs to happen
-- Wait for your fix before continuing
-
-### When to Check
-
-- At session start: `Read alerts in [[mission-control/alerts.md]]`
-- During work: I'll mention if threshold crossed
-- Before expensive task: Check budget remaining
+**Red Alerts:**
+- I will immediately stop and refuse to proceed further.
+- I will explain what to do and why.
 
 ---
 
-## Thresholds
+## Enhancement Strategy
 
-| Alert Type | Yellow | Red |
-|-----------|--------|-----|
-| Daily Budget | $0.75 (75%) | $1.00 (100%) |
-| Monthly Budget | $3.75 (75%) | $5.00 (100%) |
-| Cache Hit | 85% | N/A |
-| Context Usage | 60% | 100% |
-| Response Time | 30s | 60s |
+- Implement ongoing alerts for token budgeting, spending, performance metrics tracking.
+- Utilize this as an active feedback mechanism until the budget restrictions and spending are optimized.
 
 ---
 
-## Escalation Path
-
-1. **Yellow:** Log it here, keep working
-2. **Red:** Log it here, STOP, wait for fix
-3. **System Down:** Can't work, contact host
-
----
-
-**Last checked:** 2026-03-14 04:07 UTC
-**Next check:** Before high-cost operations
+**Next Steps:** Scheduled review when budget adjustments are made, either via alerts or significant changes to the current pattern in token utilization.
