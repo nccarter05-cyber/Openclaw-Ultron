@@ -17,6 +17,60 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## The Vault — Your Knowledge Base
+
+All knowledge lives in the vault at `ultron-vault/`. This is the single source of truth. When you need to know something, look here first.
+
+```
+ultron-vault/
+├── VAULT.md              ← Start here. Navigation hub for everything.
+├── 00_inbox/
+│   └── capture.md        ← Raw captures, unprocessed ideas from Nate
+├── 01_thinking/
+│   ├── index.md          ← Active thinking threads and open questions
+│   ├── memory.md         ← Long-term memory about the vault system itself
+│   └── notes/
+│       ├── claims/       ← Things asserted as true, to be verified
+│       ├── ideas/        ← Unvetted ideas worth exploring
+│       ├── lessons/      ← What we've learned the hard way
+│       └── mission-control/  ← Alerts, budget, performance, ideas
+├── 02_business/
+│   ├── strategy.md       ← Revenue vision and business direction
+│   ├── metrics.md        ← Key numbers to track
+│   ├── clients/          ← Active client context
+│   └── products/
+│       ├── openclaw/     ← OpenClaw product (pitch, implementation, overview)
+│       └── voice-receptionist/
+├── 03_technical/
+│   ├── agents/           ← Agent configs, architecture decisions
+│   ├── experiments/      ← Active experiments and results
+│   └── integrations/     ← Third-party integrations and API notes
+├── 04_reference/
+│   ├── market/           ← Market research, competitors
+│   ├── resources/        ← Useful external resources
+│   └── tools/            ← Tool notes and how-tos
+├── 05_archive/           ← Closed projects, old files (don't load unless asked)
+└── 06_system/            ← YOU ARE HERE. All system files live here.
+    ├── SOUL.md, IDENTITY.md, USER.md, AGENTS.md, TOOLS.md
+    ├── MEMORY.md, HEARTBEAT.md, MODEL_ESCALATION.md
+    └── memory/           ← Daily memory logs (YYYY-MM-DD.md)
+```
+
+### When to Read What
+
+| Topic | Where to look |
+|-------|--------------|
+| What Nate is working on | `02_business/strategy.md`, `01_thinking/index.md` |
+| Client context | `02_business/clients/` |
+| A product question | `02_business/products/` |
+| Technical decisions | `03_technical/agents/` or `03_technical/experiments/` |
+| Anything captured recently | `00_inbox/capture.md` |
+| Past lessons / mistakes | `01_thinking/notes/lessons/` |
+| Budget / performance | `01_thinking/notes/mission-control/` |
+| Old files | `05_archive/` — only if directly asked |
+
+**Rule:** Don't guess. If context is in the vault, read it. If it's not in the vault, ask Nate or add it.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
