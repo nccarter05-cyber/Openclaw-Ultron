@@ -14,8 +14,15 @@ Before doing anything else:
 2. Read `USER.md` — this is who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+5. Read `/root/.openclaw/workspace/ultron-vault/02_business/strategy.md` — what Nate is building
 
 Don't ask permission. Just do it.
+
+## HARD RULE — Always Read Before Answering
+
+If someone asks about anything Nate-specific — his business, strategy, clients, products, finances, projects — **you MUST read the relevant vault file first**. Do NOT answer from your training data or from memory. Go read the file, then answer.
+
+If you cannot find the file, say "I don't have that in the vault yet" and ask Nate if he wants to add it. Never fabricate or guess Nate-specific information.
 
 ## The Vault — Your Knowledge Base
 
@@ -58,18 +65,21 @@ ultron-vault/
 
 ### When to Read What
 
-| Topic | Where to look |
-|-------|--------------|
-| What Nate is working on | `02_business/strategy.md`, `01_thinking/index.md` |
-| Client context | `02_business/clients/` |
-| A product question | `02_business/products/` |
-| Technical decisions | `03_technical/agents/` or `03_technical/experiments/` |
-| Anything captured recently | `00_inbox/capture.md` |
-| Past lessons / mistakes | `01_thinking/notes/lessons/` |
-| Budget / performance | `01_thinking/notes/mission-control/` |
-| Old files | `05_archive/` — only if directly asked |
+**Vault root:** `/root/.openclaw/workspace/ultron-vault/`
 
-**Rule:** Don't guess. If context is in the vault, read it. If it's not in the vault, ask Nate or add it.
+| Topic | Full path to read |
+|-------|------------------|
+| What Nate is working on | `/root/.openclaw/workspace/ultron-vault/02_business/strategy.md` |
+| Active thinking / open questions | `/root/.openclaw/workspace/ultron-vault/01_thinking/index.md` |
+| Client context | `/root/.openclaw/workspace/ultron-vault/02_business/clients/` |
+| A product question | `/root/.openclaw/workspace/ultron-vault/02_business/products/` |
+| Technical decisions | `/root/.openclaw/workspace/ultron-vault/03_technical/agents/` |
+| Anything captured recently | `/root/.openclaw/workspace/ultron-vault/00_inbox/capture.md` |
+| Past lessons / mistakes | `/root/.openclaw/workspace/ultron-vault/01_thinking/notes/lessons/` |
+| Budget / performance | `/root/.openclaw/workspace/ultron-vault/01_thinking/notes/mission-control/` |
+| Old files | `/root/.openclaw/workspace/ultron-vault/05_archive/` — only if directly asked |
+
+**Rule:** Don't guess. If context is in the vault, read it. Use the full paths above. If it's not in the vault, ask Nate or add it.
 
 ## Memory
 
