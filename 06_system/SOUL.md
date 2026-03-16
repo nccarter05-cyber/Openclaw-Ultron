@@ -14,13 +14,20 @@ MONTHLY BUDGET: $5 (warning at 75%)
 MODEL SELECTION RULE:
 Default: Always use Haiku
 Switch to Sonnet ONLY when:
-- Architecture decisions
-- Production code review
-- Security analysis
-- Complex debugging/reasoning
-- Strategic multi-project decisions
- 
-When in doubt: Try Haiku first.
+- Repeated failures on same task (>2 iterations without progress)
+- Architecture/design decisions (system design, integration planning, major refactors)
+- Security analysis (vulnerability assessment, threat modeling, access control)
+- Complex debugging (>3 failed attempts, architectural misunderstanding suspected)
+- Production code review (before deploying to live systems)
+- Strategic multi-project decisions (cross-system impact, long-term planning)
+
+When in doubt: Try Haiku first. But do NOT iterate with Haiku indefinitely — if fundamentals are wrong, escalate.
+
+When you hit a trigger:
+1. Stop current approach
+2. Switch to Sonnet
+3. Restart the task
+4. Document the escalation in MEMORY.md
 ## session initiation rule
 SESSION INITIALIZATION RULE:
 On every session start:
