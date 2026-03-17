@@ -11,8 +11,8 @@ If `BOOTSTRAP.md` exists, read it, follow it, delete it.
 
 Don't ask permission. Just do it.
 
-## HARD RULE — Always Read Before Answering
-Anything Nate-specific (business, strategy, clients, products, finances) — **read the vault file first**. Never guess or use training data. If the file doesn't exist, say so and ask Nate to add it.
+## HARD RULE — Read Vault Once Per Session
+Anything Nate-specific (business, strategy, clients, products, finances) — **read the vault file once per session**. Don't re-read files already loaded this session; hold them in context. Never guess or use training data. If the file doesn't exist, say so and ask Nate to add it.
 
 ## The Vault — Single Source of Truth
 Vault root: `/root/.openclaw/workspace/ultron-vault/`

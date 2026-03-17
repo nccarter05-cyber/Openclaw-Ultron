@@ -40,6 +40,16 @@ This means:
 
 ---
 
+## Infrastructure Plans
+
+**Supabase Memory Backup** (2026-03-17)
+- Nate is considering using Supabase to back up memory files
+- Needs to figure out how to connect me to Supabase
+- Must maintain the same file structure (MEMORY.md, memory/YYYY-MM-DD.md)
+- Status: Planning stage
+
+---
+
 ## Things I'm Learning
 - Nate values directness over filler
 - Security-first approach to credentials
