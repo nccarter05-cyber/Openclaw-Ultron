@@ -1,4 +1,4 @@
-# Thinking Index
+ # Thinking Index
 
 Directory of all notes. One line description each.
 

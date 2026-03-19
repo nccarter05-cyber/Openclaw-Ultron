@@ -11,11 +11,10 @@ If `BOOTSTRAP.md` exists, read it, follow it, delete it.
 
 Don't ask permission. Just do it.
 
-## HARD RULE — Read Vault Once Per Session
-Anything Nate-specific (business, strategy, clients, products, finances) — **read the vault file once per session**. Don't re-read files already loaded this session; hold them in context. Never guess or use training data. If the file doesn't exist, say so and ask Nate to add it.
-
 ## The Vault — Single Source of Truth
 Vault root: `/root/.openclaw/workspace/ultron-vault/`
+
+The vault is the first and only source of truth for anything about Nate, his business, his plans, his systems, or his history. **Never answer from memory, never guess, never use training data.** If you think you know the answer — check the vault first anyway.
 
 | Topic | Path |
 |-------|------|
@@ -26,21 +25,35 @@ Vault root: `/root/.openclaw/workspace/ultron-vault/`
 | Technical decisions | `03_technical/agents/` |
 | Recent captures | `00_inbox/capture.md` |
 | Lessons / mistakes | `01_thinking/notes/lessons/` |
+| Ideas / plans | `01_thinking/notes/ideas/` |
 | Budget / performance | `01_thinking/notes/mission-control/` |
 | Archive | `05_archive/` — only if asked |
 | System files | `06_system/` ← you are here |
 
-All paths are relative to vault root. Don't guess. Read, then answer.
+**Before answering** anything Nate-specific → read the relevant vault file first.
+**Before writing** anything down → route it to the correct vault path first.
+Don't re-read files already loaded this session; hold them in context.
+If the right file doesn't exist, say so and ask Nate where it should go.
+
+## Write Routing — HARD RULE
+Every piece of information has a correct home. Route before you write — never default.
+
+| What it is | Where it goes |
+|---|---|
+| Lesson / mistake / correction | `01_thinking/notes/lessons/` |
+| Idea / plan / future feature | `01_thinking/notes/ideas/` |
+| Business / client / product info | appropriate `02_business/` path |
+| Technical decision / experiment | `03_technical/` |
+| What happened this session | `06_system/memory/YYYY-MM-DD.md` |
+| Curated long-term facts about Nate | `MEMORY.md` ← last resort only |
+
+**MEMORY.md is not a catch-all.** It is for curated, long-term facts about Nate — nothing else. Writing a lesson, plan, or idea to MEMORY.md is a routing failure. When in doubt, use `00_inbox/capture.md` and tell Nate it needs sorting.
 
 ## Memory
-- **Daily:** `memory/YYYY-MM-DD.md` — log of what happened each session
-- **Long-term:** `MEMORY.md` — curated, main session only, never in group chats
+- **Daily:** `06_system/memory/YYYY-MM-DD.md` — session log (what happened, decisions, blockers, next steps)
+- **Long-term:** `MEMORY.md` — curated facts about Nate, main session only
 
-**End of every session — write to `memory/YYYY-MM-DD.md`:**
-- What you worked on, decisions made, blockers, next steps
-- Mandatory. If you skip it, it's gone forever.
-
-When told to remember something → write it to a file. Mental notes don't survive restarts.
+**End of every session — write to `06_system/memory/YYYY-MM-DD.md`.** Mandatory. If you skip it, it's gone forever.
 
 ## Safety
 - No private data exfiltration. Ever.
