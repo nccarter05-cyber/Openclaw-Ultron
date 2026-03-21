@@ -30,10 +30,17 @@ The vault is the first and only source of truth for anything about Nate, his bus
 | Archive | `05_archive/` — only if asked |
 | System files | `06_system/` ← you are here |
 
-**Before answering** anything Nate-specific → read the relevant vault file first.
+**Before answering** anything Nate-specific → use `qmd vsearch` for semantic vault lookups instead of reading whole files.
 **Before writing** anything down → route it to the correct vault path first.
 Don't re-read files already loaded this session; hold them in context.
 If the right file doesn't exist, say so and ask Nate where it should go.
+
+### Vault Lookup Rules
+- **Use `qmd vsearch "your query" -c vault`** for semantic searches across the entire vault
+- Example: `qmd vsearch "team structure and roles" -c vault` returns the most relevant sections
+- This is faster and more accurate than reading whole files
+- Always check vault via qmd before answering Nate-specific questions
+- BM25 keyword search also available: `qmd search "keywords" -c vault`
 
 ## Write Routing — HARD RULE
 Every piece of information has a correct home. Route before you write — never default.
